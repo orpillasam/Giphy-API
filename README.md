@@ -10,6 +10,9 @@ Assigned: 11/4/17
 
 Due: 11/11/17
 
+This weeks lessons were learning how to access API's using AJAX and fetch.  We also dynamically created HTML using JS and jQuery, which was very useful to learn.
+
+
 ********************************************************************************************
 
 
