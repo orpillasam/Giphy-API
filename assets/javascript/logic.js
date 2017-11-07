@@ -29,7 +29,7 @@ $(document).ready(function() {
 		var subject = $(this).attr('data-name');
 		console.log("subject is " + subject);
 
-		var queryURL ="http://api.giphy.com/v1/gifs/search?q=" + subject + "&api_key=56uYq7JLVc0ntzCICXjAnKxSDyNVuKyF&limit=10";
+		var queryURL ="https://api.giphy.com/v1/gifs/search?q=" + subject + "&api_key=56uYq7JLVc0ntzCICXjAnKxSDyNVuKyF&limit=10";
 		 		
         $.ajax({
           url: queryURL,
