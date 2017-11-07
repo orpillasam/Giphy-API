@@ -2,30 +2,37 @@
 <html>
 <head>
 	<title>Giphy API</title>
+	<link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
 	<link rel = "stylesheet" type = "text/css" href = "assets/css/style.css"/> <script src="https://code.jquery.com/jquery.js"></script>
 	<script src="assets/javascript/logic.js"></script>
 </head>
 <body>
 	
-	<div class ='main-container'>
-		<h1 id='title'>GIPHY Heaven!</h1>
-		<div id='button-div'></div>
-		<form id="movie-form">
-			      <label form="subject-input">Add an animal</label>
-			      <input type="text" id="subject-input"><br>
+<!-- 	<div class ='main-container'> -->
+		<header class='header'>
+			<div id='title'>GIPHY Star Trek Universe<div>
+		</header>
+		
 
-			      <!-- Button triggers new movie to be added -->
-			      <input id="add-subject" type="submit" value="Submit">
-		    </form>
+		<div class= 'row'>
+			<div class='left-section'>
+				<div id='button-div'></div>
+				<div id='gifWell'></div>
+			</div>
 
-		<div class='left-section'>
-			<div id='gifWell'></div>
-		</div>
+			<div class='right-section'>
+				<form id="movie-form">
+				      <label form="subject-input">Search</label>
+				      <br>
+				      <input type="text" id="subject-input"><br>
 
-		<div class='right-section'>
+				      <!-- Button triggers new movie to be added -->
+				      <input id="add-subject" type="submit" value="Submit">
 			
+			    </form>
+			</div>	
 		</div>
 
-	</div>
+<!-- 	</div> -->
 </body>
 </html>
