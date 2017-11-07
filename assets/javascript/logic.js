@@ -2,7 +2,8 @@ $(document).ready(function() {
 
 	var subjects = ['Spock', 'Captain Kirk', 'Picard', 'Riker', 'Data', 'Janeway', 'Enterprise',
 					'Borg', 'Klingon', 'Ferengi', 'Sisko', 'Captain Archer', 'Uhura', 'Chekov', 'Scotty', 
-					'Sulu', 'Geordi', 'Troi',  "Miles O'Brien", 'Worf', 'Tuvok'];
+					'Sulu', 'Geordi', 'Deanna Troi',  "Miles O'Brien", 'Worf', 'Tuvok', 'Neelix', 'Chakotay', 
+					'Leonard McCoy', 'Beverly Crusher', 'Wesley Crusher'];
 
 	function renderButtons(){
 		$("#button-div").empty();
