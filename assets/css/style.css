@@ -5,11 +5,10 @@
 body{
 	font-family: 'Teko', sans-serif;
 	background-image: url('../../assets/images/star_trek_logo_background.jpg');
-
   width: 100%;
-/*  max-width: 1400px;*/
   margin: 0 auto;
   clear: both;
+
 }
 
 
@@ -32,12 +31,15 @@ body{
 	width: 78%;
 	height: auto;
 	display: inline;
+	padding: 0 20px;
 }
 
 .right-section {
 	float: right;
 	width: 20%;
 	height: auto;
+	font-size: 18px;
+
 }
 
 .subject {
@@ -59,4 +61,7 @@ button, #add-subject {
 	background-color: #f2c300;
 	color: black;
 
+}
+#button-div{
+	margin-bottom: 20px;
 }
